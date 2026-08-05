@@ -1,0 +1,9 @@
+public class Main{
+  public static void main(String[]args) {
+      WeightLossModel model = new WeightLossModel();
+      model.CustomerName= "JOE BLOGGS";
+      model.WeightLoss = 10;
+      PrintWeightLoss printWeightLoss = new PrintWeightLoss(model);
+      printWeightLoss.print();
+}
+}
